@@ -1,0 +1,41 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100%;
+  padding-right: 100%;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  padding: 1rem;
+  background: #007bff;
+  width: 100%;
+  justify-content: center;
+}
+
+.nav-link {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.nav-link.active {
+  border-bottom: 3px solid white;
+}
+
+.content-container {
+  width: 50%;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
